@@ -1,0 +1,44 @@
+@import url(/styles/variables.css);
+
+body {
+    margin: 0px auto;
+    width: 1440px;
+}
+
+.container {
+    padding: 0px 40px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.main-header {
+    background-image:  url("/images/header/header-bg.png");
+    background-repeat: no-repeat;
+}
+
+.header-wrap {
+    justify-content: space-between;
+    padding-top: 54px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.header-nav-form {
+    display: flex;
+}
+
+.header-logo {
+    padding-left: 10px;
+}
+
