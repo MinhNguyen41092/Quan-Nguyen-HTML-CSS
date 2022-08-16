@@ -1,13 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Figma Land</title>
-    <link src="styles/main.css" type="" rel="stylesheet">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="/styles/main.css" />
+  </head>
+
+  
+
+  <body>
+    <!-- START HEADER AND BANNER SECTION -->
+    <header class="main-header">
+      <!-- START HEADER -->
+      <div class="header-wrap flex">
+        <div class="header-logo">
+          <img src="images/header/header-logo.png" />
+        </div>
+        <div class="header-nav flex">
+          <nav class="header-nav-list">
+            <ul class="nav-list flex">
+              <li class="nav-item">Home</li>
+              <li class="nav-item">Product</li>
+              <li class="nav-item">Pricing</li>
+              <li class="nav-item">About</li>
+              <li class="nav-item">Contact</li>
+            </ul>
+          </nav>
+          <form action="#" class="header-nav-form flex">
+            <input
+              type="text"
+              class="email"
+              name="email"
+              placeholder="Your Email"
+            />
+            <input type="submit" class="submit" value="Subscribe" />
+          </form>
+        </div>
+      </div>
+      <!-- END HEADER -->
+
+      <!-- START BANNER -->
+      <section class="banner flex">
+        <div class="content flex">
+          <div class="image flex">
+            <div class="navigation">
+              <div class="nav-bar flex">
+                <div class="address-bar"></div>
+              </div>
+            </div>
+            <div class="screenshot flex">
+              <img src="images/header/banner.png" alt="">
+            </div>
+          </div>
+          <div class="text flex">
+            <h2>We focus on<br />ergonomics</h2>
+            <p>Most calendars are designed for teams.<br />
+              Slate is designed for freelancers.</p>
+            <button type="button" class="flex">
+              Try For Free
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- END BANNER -->
+
+    </header>
+    <!-- END HEADER AND BANNER SECTION -->
+  </body>
+
+  <!-- Add Html Inspector -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/html-inspector/0.8.2/html-inspector.js"></script>
+  <script>
+    HTMLInspector.inspect();
+  </script>
+
 </html>
