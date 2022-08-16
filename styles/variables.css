@@ -1,14 +1,13 @@
 :root {
     /* font family */
-
+    --font-family-primary: Roboto;
     /* Font size */
-    --font-size-primary: 16px;
-    --font-size-secondary: 18px;
 
     /* font line */
 
     /* line-height */
 
     /* color */
-
+    --white: #FFFFFF;
+    --black: #252B42;
   }
