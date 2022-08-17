@@ -235,7 +235,6 @@ body {
 
 
 .hero{
-    /* height: 1056px; */
     height: calc(1271px - 80px - 135px);
     justify-content: center;
     padding: 80px 0px 135px 0px;
@@ -249,9 +248,24 @@ body {
 .text-content {
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .text-content h2, h4 {
     text-align: center;
+    font-family: var(--font-family-primary);
+    color: var(--black);
+}
+.text-content h2 {
+    width: 296px;
+    margin: 0;
+    font-weight: 400;
+    font-size: 46px;
+    margin-bottom: 27px;
+}
+.text-content h4 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
 }
 .button-content {
     padding: 20px;
