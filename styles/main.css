@@ -233,7 +233,7 @@ body {
 }
 /* END FEATURES SECTION */
 
-
+/* START HERO SECTION */
 .hero{
     height: calc(1271px - 80px - 135px);
     justify-content: center;
@@ -272,7 +272,6 @@ body {
     align-items: center;
     margin-top: 90px;
     margin-bottom: 75px;
-    
 }
 .button-content button {
     background-color: #38A3F1;
@@ -288,4 +287,5 @@ body {
 .screen-content {
     justify-content: center;
 }
+/* END HERO SECTION */
 
