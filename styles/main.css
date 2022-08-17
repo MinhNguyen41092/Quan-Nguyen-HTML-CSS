@@ -299,13 +299,33 @@ body {
     flex-direction: column;
     align-items: center;
 }
+.cta-text h2, h3, .cta-action h3, p {
+    font-family: var(--font-family-primary);
+    color: var(--white);
+}
 .cta-text {
 
+}
+.cta-text h3 {
+    font-weight: 700;
+    font-size: 22px;
+}
+.cta-text h2 {
+    font-weight: 400;
+    font-size: 46px;
 }
 .cta-action {
 
 }
+.cta-action h3 {
+    font-weight: 700;
+    font-size: 22px;
+}
+.cta-action p {
+    font-weight: 400;
+    font-size: 18px;
+}
 .input-container {
-
+    
 }
 /* END CTA SECTION */
