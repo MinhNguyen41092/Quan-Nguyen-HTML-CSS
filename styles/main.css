@@ -289,3 +289,23 @@ body {
 }
 /* END HERO SECTION */
 
+/* START CTA SECTION */
+.cta {
+    height: 571px;
+    background: linear-gradient(39.97deg, #EF2779 0.79%, #7834BE 79.29%);
+    justify-content: center;
+}
+.cta-content, .cta-text, .cta-action, .input-container {
+    flex-direction: column;
+    align-items: center;
+}
+.cta-text {
+
+}
+.cta-action {
+
+}
+.input-container {
+
+}
+/* END CTA SECTION */
