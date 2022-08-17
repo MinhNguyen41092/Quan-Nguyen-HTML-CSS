@@ -8,8 +8,10 @@ body {
 .flex {
     display: flex;
 }
+
+/* START HEADER AND BANNER SECTION */
 .main-header {
-    background-image:  url("/images/header/header-bg.png");
+    background-image:  url("/images/header-and-banner/header-bg.png");
     background-repeat: no-repeat;
     height: 949px;
 }
@@ -152,3 +154,82 @@ body {
     justify-content: center;
     align-items: center;
 }
+/* END HEADER AND BANNER SECTION */
+
+/* START FEATURES SECTION */
+.features {
+    height: 612px;
+    flex-direction: column;
+}
+.feature-title {
+    width: 318px;
+    height: 184px;
+    flex-direction: column;
+    padding: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px auto 70px auto;
+}
+.feature-title h3 {
+    color: var(--black);
+    font-family: var(--font-family-primary);
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    margin: 0;
+}
+.feature-title h2 {
+    color: var(--black);
+    font-family: var(--font-family-primary);
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 57px;
+    text-align: center;
+    margin: 0;
+}
+.feature-title p {
+    text-align: center;
+    color: var(--black);
+    font-family: var(--font-family-primary);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+}
+.feature-content {
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+.feature-item {
+    flex-direction: column;
+    width: 300px;
+    margin: 0px 26px;
+}
+.item-title {
+    flex-direction: row;
+    height: 115px;
+}
+.item-icon {
+    align-items: center;
+}
+.item-info {
+    align-items: center;
+    padding: 10px;
+    font-family: var(--font-family-primary);
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    color: var(--black);
+    letter-spacing: 0.1px;
+}
+.item-content p {
+    text-align: justify;
+    font-family: var(--font-family-primary);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--black);
+}
+/* END FEATURES SECTION */
+
