@@ -4,7 +4,6 @@ body {
     margin: 0px auto;
     max-width: 1440px;
     font-family: var(--font-family-primary);
-    color: var(--white);
 }
 .flex {
     display: flex;
@@ -17,12 +16,21 @@ body {
     line-height: 20px;
     letter-spacing: 0.2px;
     text-align: center;
+    color: var(--black);
 }
 .p-tag-title {
     font-weight: 400;
     font-size: 46px;
     line-height: 57px;
     text-align: center;
+    color: var(--black);
+}
+.p-tag-subtitle {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    color: var(--black);
 }
 .btn-try-for-free {
     width: 236px;
@@ -41,6 +49,7 @@ body {
 .main-header {
     background-image:  url("/images/header-and-banner/header-bg.png");
     background-repeat: no-repeat;
+    color: var(--white);
 }
 .header-wrap {
     padding: 0px 40px;
@@ -156,6 +165,7 @@ body {
     height: 40px;
     margin: 0;
     margin-bottom: 70px;
+    color: var(--white);
 }
 /* END HEADER AND BANNER SECTION */
 
@@ -171,42 +181,18 @@ body {
     padding: 10px 0;
     justify-content: space-between;
     align-items: center;
-    margin: 70px auto 70px auto;
-}
-.feature-title h3 {
-    color: var(--black);
-    font-family: var(--font-family-primary);
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 33px;
-    margin: 0;
-}
-.feature-title h2 {
-    color: var(--black);
-    font-family: var(--font-family-primary);
-    font-weight: 400;
-    font-size: 46px;
-    line-height: 57px;
-    text-align: center;
-    margin: 0;
+    margin: 70px auto;
 }
 .feature-title p {
-    text-align: center;
-    color: var(--black);
-    font-family: var(--font-family-primary);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
     margin: 0;
 }
 .feature-content {
     flex-direction: row;
-    width: 100%;
     justify-content: center;
 }
 .feature-item {
     flex-direction: column;
-    width: 300px;
+    width: 255px;
     margin: 0px 26px;
 }
 .item-title {
@@ -226,9 +212,11 @@ body {
     color: var(--black);
     letter-spacing: 0.1px;
 }
+.item-info p {
+    text-align: left;
+}
 .item-content p {
     text-align: justify;
-    font-family: var(--font-family-primary);
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
