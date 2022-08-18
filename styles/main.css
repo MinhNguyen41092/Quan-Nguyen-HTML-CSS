@@ -10,7 +10,7 @@ body {
 }
 
 /* COMMON STYLES */
-.p-tag-primary {
+.p-content-primary {
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
@@ -19,7 +19,7 @@ body {
     color: var(--black);
     margin: 0;
 }
-.p-tag-secondary {
+.p-content-secondary {
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
@@ -28,7 +28,16 @@ body {
     color: var(--black);
     margin: 0;
 }
-.p-tag-title {
+.p-content-tertiary {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: var(--black);
+    margin: 0;
+}
+.p-content-title {
     font-weight: 400;
     font-size: 46px;
     line-height: 57px;
@@ -36,7 +45,7 @@ body {
     color: var(--black);
     margin: 0;
 }
-.p-tag-subtitle {
+.p-content-subtitle {
     font-weight: 700;
     font-size: 22px;
     line-height: 33px;
@@ -44,7 +53,7 @@ body {
     color: var(--black);
     margin: 0;
 }
-.btn-try-for-free {
+.btn {
     background-color: #38A3F1;
     width: 236px;
     height: 65px;
@@ -339,13 +348,6 @@ body {
     align-items: center;
     padding: 0;
 }
-.part-item-name {
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 18px;
-    letter-spacing: 0.1px;
-    text-align: center;
-}
 .partners-list {
     list-style-type: none;
     margin: 0;
@@ -390,13 +392,6 @@ body {
 .testimonials-user-info {
     padding-left: 13px;
 }
-.testimonials-user-name {
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 18px;
-    letter-spacing: 0.1px;
-    margin: 0;
-}
 .testimonials-user-job {
     font-weight: 400;
     font-size: 15px;
@@ -415,3 +410,17 @@ body {
     padding-bottom: 60px;
 }
 /* END TESTIMONIALS SECTION */
+
+/* START PRICING SECTION */
+.pricing {
+    flex-direction: column;
+    align-items: center;
+}
+.pricing-list {
+    list-style-type: none;
+}
+.pricing-item-price {
+    align-items: center;
+}
+
+/* END PRICING SECTION */
