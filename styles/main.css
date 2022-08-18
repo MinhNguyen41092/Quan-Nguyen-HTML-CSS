@@ -332,3 +332,48 @@ body {
     color: var(--white);
 }
 /* END CTA SECTION */
+
+/* START PARTNERS SECTION */
+.partners {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+.part-item-name {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    text-align: center;
+}
+.partners-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+.partners-list:first-child {
+    padding-bottom: 93.5px;
+}
+.partners-item {
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 220px;
+    padding: 0 36px;
+}
+.part-item-logo {
+    padding: 25px 0px;
+}
+.partners-title {
+    padding: 130px 0 27px 0;
+}
+.partners-text {
+    padding-bottom: 103.5px;
+}
+.partners-content {
+    padding-bottom: 90px;;
+}
+.partners-btn {
+    margin-bottom: 80px;
+}
+/* END PARTNERS SECTION */
