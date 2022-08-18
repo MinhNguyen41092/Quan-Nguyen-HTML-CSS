@@ -2,11 +2,38 @@
 
 body {
     margin: 0px auto;
-    width: 1440px;
-    height: 7494.38px;
+    max-width: 1440px;
+    font-family: var(--font-family-primary);
+    color: var(--white);
 }
 .flex {
     display: flex;
+}
+
+/* COMMON STYLES */
+.p-tag-primary {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+.p-tag-title {
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 57px;
+    text-align: center;
+}
+.btn-try-for-free {
+    width: 236px;
+    height: 65px;
+    border-radius: 35px;
+    border: none;
+    color: #38A3F1;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    justify-content: center;
+    align-items: center;
 }
 
 /* START HEADER AND BANNER SECTION */
@@ -29,8 +56,8 @@ body {
 }
 .nav-item {
     padding-right: 41px;
-    font-family: var(--font-family-primary);
-    color: var(--white);
+    /* font-family: var(--font-family-primary);
+    color: var(--white); */
     font-size: 15px;
     line-height: 27px;
 }
@@ -147,7 +174,6 @@ body {
     border-radius: 35px;
     border: none;
     color: #38A3F1;
-    font-family: var(--font-family-primary);
     font-weight: 700;
     font-size: 22px;
     line-height: 33px;
