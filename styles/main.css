@@ -10,7 +10,7 @@ body {
 }
 
 /* COMMON STYLES */
-.p-tag-primary {
+.content-primary {
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
@@ -19,7 +19,7 @@ body {
     color: var(--black);
     margin: 0;
 }
-.p-tag-secondary {
+.content-secondary {
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
@@ -28,7 +28,16 @@ body {
     color: var(--black);
     margin: 0;
 }
-.p-tag-title {
+.content-tertiary {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: var(--black);
+    margin: 0;
+}
+.content-title {
     font-weight: 400;
     font-size: 46px;
     line-height: 57px;
@@ -36,7 +45,7 @@ body {
     color: var(--black);
     margin: 0;
 }
-.p-tag-subtitle {
+.content-subtitle {
     font-weight: 700;
     font-size: 22px;
     line-height: 33px;
@@ -44,7 +53,7 @@ body {
     color: var(--black);
     margin: 0;
 }
-.btn-try-for-free {
+.btn {
     background-color: #38A3F1;
     width: 236px;
     height: 65px;
@@ -339,13 +348,6 @@ body {
     align-items: center;
     padding: 0;
 }
-.part-item-name {
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 18px;
-    letter-spacing: 0.1px;
-    text-align: center;
-}
 .partners-list {
     list-style-type: none;
     margin: 0;
@@ -390,13 +392,6 @@ body {
 .testimonials-user-info {
     padding-left: 13px;
 }
-.testimonials-user-name {
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 18px;
-    letter-spacing: 0.1px;
-    margin: 0;
-}
 .testimonials-user-job {
     font-weight: 400;
     font-size: 15px;
@@ -415,3 +410,58 @@ body {
     padding-bottom: 60px;
 }
 /* END TESTIMONIALS SECTION */
+
+/* START PRICING SECTION */
+.pricing {
+    flex-direction: column;
+    align-items: center;
+}
+.pricing-list {
+    list-style-type: none;
+    padding-bottom: 100px;
+}
+.pricing-item {
+    border: 1px solid #DEDEDE;
+    padding: 40px;
+    margin: 0 25px;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+}
+.pricing-title {
+    padding: 110px 0 27px 0;
+}
+.pricing-text {
+    padding-bottom: 90px;
+}
+.pricing-item-price {
+    align-items: center;
+}
+.pricing-item-title {
+    padding-bottom: 3px;
+}
+.pricing-item-text {
+    padding-bottom: 30px;
+}
+.item-price-unit {
+    padding-left: 10px;
+}
+.pricing-item-price {
+    padding-bottom: 27.5px;
+}
+.item-price-currency, .item-price-time, .pricing-item-title, .pricing-item-text {
+    text-align: left;
+}
+.item-price-number {
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 66px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    margin: 0;
+    padding-left: 5px;
+}
+.btn-price-item {
+    width: 255px;
+    height: 52px;
+}
+/* END PRICING SECTION */
