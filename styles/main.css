@@ -15,6 +15,7 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
+    letter-spacing: 0.2px;
     text-align: center;
 }
 .p-tag-title {
@@ -40,7 +41,6 @@ body {
 .main-header {
     background-image:  url("/images/header-and-banner/header-bg.png");
     background-repeat: no-repeat;
-    height: 949px;
 }
 .header-wrap {
     padding: 0px 40px;
@@ -56,8 +56,6 @@ body {
 }
 .nav-item {
     padding-right: 41px;
-    /* font-family: var(--font-family-primary);
-    color: var(--white); */
     font-size: 15px;
     line-height: 27px;
 }
@@ -74,13 +72,11 @@ body {
     border-radius: 39px;
     border: none;
     width: 273px;
-    /* padding: 19px 0px 19px 39px; */
     font-weight: 400;
     line-height: 16px;
     letter-spacing: 0.1px;
 } 
 .header-nav-form .email::placeholder {
-    font-family: var(--font-family-primary);
     font-size: 14px;
     color: #18171D;
     padding: 19px 39px;
@@ -99,7 +95,6 @@ body {
 }
 .banner {
     height: 792px;
-    /* padding: 104px 82px; */
     flex-direction: column;
     justify-content: flex-end;
 }
@@ -119,6 +114,7 @@ body {
     height: 531px;
     margin-right: 87px;
     box-shadow: 20px 20px 20px -25px;
+    color: var(--black);
 }
 .nav-bar {
     height: 42px;
@@ -142,7 +138,6 @@ body {
 .text {
     flex-direction: column;
     align-items: flex-start;
-    font-family: var(--font-family-primary);
     height: 379px;
     width: 420px;
     padding-top: 50px;
@@ -155,30 +150,12 @@ body {
     font-size: 55px;
     line-height: 66px;
     letter-spacing: 0.2px;
-    color: var(--white);
 }
 .text p {
     width: 298px;
     height: 40px;
     margin: 0;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0.2px;
-    color: var(--white);
     margin-bottom: 70px;
-}
-.text button {
-    width: 236px;
-    height: 65px;
-    border-radius: 35px;
-    border: none;
-    color: #38A3F1;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 33px;
-    justify-content: center;
-    align-items: center;
 }
 /* END HEADER AND BANNER SECTION */
 
