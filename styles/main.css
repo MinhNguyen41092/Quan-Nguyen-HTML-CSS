@@ -17,6 +17,16 @@ body {
     letter-spacing: 0.2px;
     text-align: center;
     color: var(--black);
+    margin: 0;
+}
+.p-tag-secondary {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: var(--black);
+    margin: 0;
 }
 .p-tag-title {
     font-weight: 400;
@@ -24,6 +34,7 @@ body {
     line-height: 57px;
     text-align: center;
     color: var(--black);
+    margin: 0;
 }
 .p-tag-subtitle {
     font-weight: 700;
@@ -31,6 +42,7 @@ body {
     line-height: 33px;
     text-align: center;
     color: var(--black);
+    margin: 0;
 }
 .btn-try-for-free {
     background-color: #38A3F1;
@@ -264,42 +276,59 @@ body {
 /* END HERO SECTION */
 
 /* START CTA SECTION */
-.cta {
-    height: 571px;
-    background: linear-gradient(39.97deg, #EF2779 0.79%, #7834BE 79.29%);
-    justify-content: center;
-}
-.cta-content, .cta-text, .cta-action, .input-container {
+.cta, .input-container {
     flex-direction: column;
     align-items: center;
 }
-.cta-text h2, h3, .cta-action h3, p {
-    font-family: var(--font-family-primary);
+.cta {
+    background: linear-gradient(39.97deg, #EF2779 0.79%, #7834BE 79.29%);
+}
+.cta-text-subtitle {
     color: var(--white);
+    padding: 81px 0 7px 0;
 }
-.cta-text {
-
+.cta-text-title {
+    color: var(--white);
+    padding-bottom: 69px;
 }
-.cta-text h3 {
-    font-weight: 700;
-    font-size: 22px;
+.cta-action-subtitle {
+    color: var(--white);
+    padding-bottom: 10px;
 }
-.cta-text h2 {
-    font-weight: 400;
-    font-size: 46px;
-}
-.cta-action {
-
-}
-.cta-action h3 {
-    font-weight: 700;
-    font-size: 22px;
-}
-.cta-action p {
-    font-weight: 400;
-    font-size: 18px;
+.cta-action-text {
+    color: var(--white);
+    padding-bottom: 34px;
 }
 .input-container {
-    
+    padding-bottom: 104px;
+
+}
+.input-container .email {
+    width: 283px;
+    height: 16px;
+    padding: 19px 35px;
+    border-radius: 39px;
+    border: none;
+    margin-bottom: 12px;
+}
+.input-container .email::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    list-style: 0.1px;
+    color: #18171D;
+}
+.input-container .submit {
+    width: 353px;
+    height: 50px;
+    padding: 17px 35px;
+    border-radius: 39px;
+    border: none;
+    background-color: #EF2779;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: var(--white);
 }
 /* END CTA SECTION */
