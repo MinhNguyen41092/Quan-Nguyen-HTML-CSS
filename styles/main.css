@@ -33,16 +33,15 @@ body {
     color: var(--black);
 }
 .btn-try-for-free {
+    background-color: #38A3F1;
     width: 236px;
     height: 65px;
-    border-radius: 35px;
-    border: none;
-    color: #38A3F1;
+    color: var(--white);
+    font-family: var(--font-family-primary);
     font-weight: 700;
     font-size: 22px;
-    line-height: 33px;
-    justify-content: center;
-    align-items: center;
+    border: none;
+    border-radius: 35px;
 }
 
 /* START HEADER AND BANNER SECTION */
@@ -167,6 +166,10 @@ body {
     margin-bottom: 70px;
     color: var(--white);
 }
+.text button {
+    color: #38A3F1;
+    background-color: var(--white);
+}
 /* END HEADER AND BANNER SECTION */
 
 /* START FEATURES SECTION */
@@ -226,7 +229,7 @@ body {
 
 /* START HERO SECTION */
 .hero{
-    height: calc(1271px - 80px - 135px);
+    height: 1056px;
     justify-content: center;
     padding: 80px 0px 135px 0px;
 }
@@ -241,39 +244,19 @@ body {
     justify-content: center;
     align-items: center;
 }
-.text-content h2, h4 {
-    text-align: center;
-    font-family: var(--font-family-primary);
-    color: var(--black);
-}
 .text-content h2 {
     width: 296px;
     margin: 0;
-    font-weight: 400;
-    font-size: 46px;
     margin-bottom: 27px;
 }
-.text-content h4 {
+.text-content p {
     margin: 0;
-    font-weight: 700;
-    font-size: 16px;
 }
 .button-content {
     flex-direction: column;
     align-items: center;
     margin-top: 90px;
     margin-bottom: 75px;
-}
-.button-content button {
-    background-color: #38A3F1;
-    width: 236px;
-    height: 65px;
-    color: var(--white);
-    font-family: var(--font-family-primary);
-    font-weight: 700;
-    font-size: 22px;
-    border: none;
-    border-radius: 35px;
 }
 .screen-content {
     justify-content: center;
