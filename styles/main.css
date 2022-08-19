@@ -546,11 +546,17 @@ body {
 .address-info {
   padding-bottom: 25px;
 }
-.address-info-text {
-  color: var(--white);
+.address-info-text,
+.footer-info-text {
   padding-left: 20px;
   display: flex;
   align-items: center;
+}
+.address-info-text {
+  color: var(--white);
+}
+.address-info-logo {
+    display: block;
 }
 .address-logo-item {
   padding: 0 15px;
@@ -559,3 +565,35 @@ body {
   padding-top: 30px;
 }
 /* END CONTACT SECTION */
+
+/* START FOOTER SECTION */
+.main-footer {
+  align-items: center;
+  padding: 130px 204px;
+}
+.text-pages {
+  text-align: left;
+  padding-bottom: 9px;
+}
+.pages-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.pages-item {
+  font-size: 15px;
+  text-align: left;
+  padding-top: 16px;
+}
+.footer-map {
+  width: 472px;
+  height: 247px;
+  border-radius: 22px;
+}
+.footer-text {
+  padding-right: 126px;
+}
+.footer-map {
+  padding-right: 15px;
+}
+/* END FOOTER SECTION */
