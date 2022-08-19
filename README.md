@@ -16,9 +16,9 @@ Visual studio code
 - Get familiar to Git and Github
 - Use HTML Inspector 
 ## HOW TO RUN THE PROJECT
-**Step 1:** *Clone Repository*
-HTTPS: https://github.com/MinhNguyen41092/Quan-Nguyen-HTML-CSS.git 
-**Step 2:** *Open Folder*
-Open folder *Quan-Nguyen-HTML-CSS* in VS Code
-**Step 3:** *Run The Project*
-Select *Open with Live Server* to run the website
+- **Step 1:** *Clone Repository*
+- HTTPS: https://github.com/MinhNguyen41092/Quan-Nguyen-HTML-CSS.git 
+- **Step 2:** *Open Folder*
+- Open folder *Quan-Nguyen-HTML-CSS* in VS Code
+- **Step 3:** *Run The Project*
+- Select *Open with Live Server* to run the website
