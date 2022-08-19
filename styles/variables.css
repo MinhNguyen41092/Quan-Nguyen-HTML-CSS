@@ -1,6 +1,10 @@
 :root {
     /* font family */
     --font-family-primary: Roboto;
+
+    /* font size */
+    --font-size-primary: 16px;
+    --font-size-secondary: 18px;
     
     /* color */
     --white: #FFFFFF;
