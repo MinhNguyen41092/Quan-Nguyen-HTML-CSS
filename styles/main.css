@@ -65,6 +65,7 @@ body {
   font-size: 22px;
   border: none;
   border-radius: 35px;
+  cursor: pointer;
 }
 
 /* START HEADER AND BANNER SECTION */
@@ -89,6 +90,7 @@ body {
   padding-right: 41px;
   font-size: 15px;
   line-height: 27px;
+  cursor: pointer;
 }
 .header-logo {
   padding-left: 9px;
@@ -562,6 +564,7 @@ body {
 }
 .address-logo-item {
   padding: 0 15px;
+  cursor: pointer;
 }
 .contact-address-logo {
   padding-top: 30px;
