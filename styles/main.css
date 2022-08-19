@@ -546,11 +546,13 @@ body {
 .address-info {
   padding-bottom: 25px;
 }
-.address-info-text {
-  color: var(--white);
+.address-info-text, .footer-info-text {
   padding-left: 20px;
   display: flex;
   align-items: center;
+}
+.address-info-text {
+  color: var(--white);
 }
 .address-logo-item {
   padding: 0 15px;
