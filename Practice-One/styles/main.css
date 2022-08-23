@@ -69,14 +69,13 @@ body {
 }
 
 /* START HEADER AND BANNER SECTION */
-.main-header {
+.header-container {
   background-image: url("/images/header-and-banner/header-bg.png");
   background-repeat: no-repeat;
   color: var(--white);
 }
-.header-wrap {
-  padding: 0px 40px;
-  padding-top: 52px;
+.main-header {
+  padding: 50px 40px;
   justify-content: space-between;
   align-items: center;
 }
@@ -451,6 +450,11 @@ body {
 }
 .pricing-item-title {
   padding-bottom: 3px;
+}
+.pricing-item-title-upper {
+  padding-bottom: 3px;
+  text-transform: uppercase;
+  text-align: left;
 }
 .pricing-item-text {
   padding-bottom: 30px;

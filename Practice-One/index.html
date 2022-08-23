@@ -10,9 +10,9 @@
 
   <body>
     <!-- START HEADER AND BANNER SECTION -->
-    <header class="main-header">
+    <section class="header-container">
       <!-- START HEADER -->
-      <div class="header-wrap flex">
+      <header class="main-header flex">
         <figure class="header-logo">
           <img src="images/header-and-banner/header-logo.png" alt="logo" />
         </figure>
@@ -34,9 +34,8 @@
             <button type="button" class="nav-submit">Subscribe</button>
           </form>
         </div>
-      </div>
+      </header>
       <!-- END HEADER -->
-
       <!-- START BANNER -->
       <section class="banner flex">
         <div class="content flex">
@@ -61,7 +60,7 @@
         </div>
       </section>
       <!-- END BANNER -->
-    </header>
+    </section>
     <!-- END HEADER AND BANNER SECTION -->
 
     <!-- START FEATURES SECTION -->
@@ -299,7 +298,7 @@
             Organize across all apps by hand
           </p>
           <div class="pricing-item-price flex">
-            <p class="item-price-number">0</p>
+            <span class="item-price-number">0</span>
             <div class="item-price-unit">
               <p class="item-price-currency content-subtitle">$</p>
               <p class="item-price-time content-tertiary">Per Month</p>
@@ -308,17 +307,12 @@
           <button type="button" class="btn btn-price-item">Order Now</button>
         </article>
         <article class="pricing-item">
-          <p
-            class="pricing-item-title content-subtitle"
-            style="text-transform: uppercase"
-          >
-            Standard
-          </p>
+          <p class="pricing-item-title-upper content-subtitle">Standard</p>
           <p class="pricing-item-text content-tertiary">
             Organize across all apps by hand
           </p>
           <div class="pricing-item-price flex">
-            <p class="item-price-number">10</p>
+            <span class="item-price-number">10</span>
             <div class="item-price-unit">
               <p class="item-price-currency content-subtitle">$</p>
               <p class="item-price-time content-tertiary">Per Month</p>
@@ -327,17 +321,12 @@
           <button type="button" class="btn btn-price-item">Order Now</button>
         </article>
         <article class="pricing-item">
-          <p
-            class="pricing-item-title content-subtitle"
-            style="text-transform: uppercase"
-          >
-            Business
-          </p>
+          <p class="pricing-item-title-upper content-subtitle">Business</p>
           <p class="pricing-item-text content-tertiary">
             Organize across all apps by hand
           </p>
           <div class="pricing-item-price flex">
-            <p class="item-price-number">99</p>
+            <span class="item-price-number">99</span>
             <div class="item-price-unit">
               <p class="item-price-currency content-subtitle">$</p>
               <p class="item-price-time content-tertiary">Per Month</p>
@@ -357,7 +346,7 @@
         Slate is designed for freelancers
       </p>
       <div class="contact-info flex">
-        <form action="#" method="GET" class="contact-action">
+        <form action="#" method="POST" class="contact-action">
           <input
             type="text"
             class="contact-action-name"
@@ -433,11 +422,21 @@
       <section class="footer-text">
         <p class="text-pages content-subtitle">Pages</p>
         <ul class="pages-list">
-          <li><a href="#" class="pages-item content-secondary">Eleanor Edwards</a></li>
-          <li><a href="#" class="pages-item content-secondary">Ted Robertson</a></li>
-          <li><a href="#" class="pages-item content-secondary">Annette Russell</a></li>
-          <li><a href="#" class="pages-item content-secondary">Jennie Mckinney</a></li>
-          <li><a href="#" class="pages-item content-secondary">Gloria Richards</a></li>
+          <li>
+            <a href="#" class="pages-item content-secondary">Eleanor Edwards</a>
+          </li>
+          <li>
+            <a href="#" class="pages-item content-secondary">Ted Robertson</a>
+          </li>
+          <li>
+            <a href="#" class="pages-item content-secondary">Annette Russell</a>
+          </li>
+          <li>
+            <a href="#" class="pages-item content-secondary">Jennie Mckinney</a>
+          </li>
+          <li>
+            <a href="#" class="pages-item content-secondary">Gloria Richards</a>
+          </li>
         </ul>
       </section>
       <img
