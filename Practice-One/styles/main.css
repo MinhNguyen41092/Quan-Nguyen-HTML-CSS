@@ -428,7 +428,6 @@ body {
   align-items: center;
 }
 .pricing-list {
-  list-style-type: none;
   padding-bottom: 100px;
 }
 .pricing-item {
@@ -509,6 +508,7 @@ body {
 }
 .contact-action-name,
 .contact-action-email {
+  display: block;
   width: 292px;
   height: 12px;
   padding: 12px 13px;
@@ -525,6 +525,8 @@ body {
   margin: 31px 0 31px 0;
 }
 .contact-action-message {
+  display: block;
+  resize: none; 
   width: 292px;
   height: 96px;
   padding: 15px 13px;
@@ -549,6 +551,7 @@ body {
   border: none;
   border-radius: 35px;
   margin-top: 31px;
+  cursor: pointer;
 }
 .contact-address-info {
   padding-top: 77px;
@@ -561,6 +564,7 @@ body {
   padding-left: 20px;
   display: flex;
   align-items: center;
+  text-align: left;
 }
 .address-info-text {
   color: var(--white);
@@ -592,19 +596,20 @@ body {
   margin: 0;
 }
 .pages-item {
+  display: block;
   font-size: 15px;
   text-align: left;
   padding-top: 16px;
+  text-decoration: none;
 }
 .footer-map {
+  display: block;
   width: 472px;
   height: 247px;
   border-radius: 22px;
+  padding-right: 40px;
 }
 .footer-text {
   padding-right: 126px;
-}
-.footer-map {
-  padding-right: 15px;
 }
 /* END FOOTER SECTION */
