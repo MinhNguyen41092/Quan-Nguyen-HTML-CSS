@@ -116,7 +116,7 @@ body {
   padding: 19px 39px;
   letter-spacing: 0.1px;
 }
-.header-nav-form .submit {
+.nav-submit {
   font-family: var(--font-family-primary);
   font-size: var(--font-size-primary);
   font-weight: 500;
@@ -126,6 +126,7 @@ body {
   border: none;
   background-color: var(--white);
   color: #ef2779;
+  cursor: pointer;
 }
 .banner {
   height: 792px;
