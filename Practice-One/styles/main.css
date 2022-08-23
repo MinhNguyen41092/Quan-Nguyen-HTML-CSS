@@ -76,7 +76,7 @@ body {
 }
 .header-wrap {
   padding: 0px 40px;
-  height: 156px;
+  padding-top: 52px;
   justify-content: space-between;
   align-items: center;
 }
@@ -88,10 +88,13 @@ body {
   align-items: center;
 }
 .nav-item {
+  display: block;
   padding-right: 41px;
   font-size: 15px;
   line-height: 27px;
   cursor: pointer;
+  color: var(--white);
+  text-decoration: none;
 }
 .header-logo {
   padding-left: 9px;
