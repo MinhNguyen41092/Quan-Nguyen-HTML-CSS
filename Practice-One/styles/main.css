@@ -346,6 +346,7 @@ body {
   line-height: 16px;
   letter-spacing: 0.2px;
   color: var(--white);
+  cursor: pointer;
 }
 /* END CTA SECTION */
 
@@ -356,7 +357,6 @@ body {
   padding: 0;
 }
 .partners-list {
-  list-style-type: none;
   margin: 0;
   padding: 0;
   justify-content: center;
@@ -416,6 +416,9 @@ body {
 .dropbox-icon,
 .testimonials-text {
   padding-bottom: 60px;
+}
+.dropbox-icon {
+  display: block;
 }
 /* END TESTIMONIALS SECTION */
 
