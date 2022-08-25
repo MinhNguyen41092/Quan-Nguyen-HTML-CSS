@@ -1,5 +1,6 @@
 {
   "devDependencies": {
-    "parcel": "^2.7.0"
+    "parcel": "^2.7.0",
+    "posthtml-doctype": "^1.1.1"
   }
 }
