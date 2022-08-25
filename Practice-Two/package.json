@@ -8,8 +8,7 @@
   "devDependencies": {
     "parcel": "^2.7.0",
     "posthtml": "^0.16.5",
-    "posthtml-include": "^1.7.4",
-    "posthtml-doctype": "^1.1.1"
+    "posthtml-doctype": "^1.1.1",
+    "posthtml-include": "^1.7.4"
   }
 }
-
