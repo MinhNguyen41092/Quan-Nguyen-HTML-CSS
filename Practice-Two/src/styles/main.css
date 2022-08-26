@@ -1,5 +1,4 @@
-@import url(./base/reset.css);
-@import url(./base/font.css);
+@import url(./base/all.css);
 
 @import url(./abstracts/variables.css);
 
@@ -7,14 +6,3 @@
 
 @import url(./layouts/all.css);
 
-body {
-    font-family: var(--font-family-primary);
-}
-
-.flex {
-    display: flex;
-}
-
-.grid {
-    display: grid;
-}

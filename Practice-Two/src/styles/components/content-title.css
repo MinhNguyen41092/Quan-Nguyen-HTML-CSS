@@ -8,6 +8,7 @@
 }
 
 .content-title-highlight {
+  font-family: var(--font-family-bold);
   font-weight: var(--font-weight-title-highlight);
   color: var(--color-violet);
 }

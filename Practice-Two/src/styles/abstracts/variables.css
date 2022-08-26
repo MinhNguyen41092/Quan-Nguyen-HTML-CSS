@@ -1,6 +1,7 @@
 :root {
   /* font family */
   --font-family-primary: Poppins;
+  --font-family-bold: Poppins-Bold;
 
   /* font size */
   --font-size-primary: 16px;
