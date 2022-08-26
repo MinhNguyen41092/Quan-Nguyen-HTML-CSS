@@ -7,3 +7,14 @@
 
 @import url(./layouts/all.css);
 
+body {
+    font-family: var(--font-family-primary);
+}
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
