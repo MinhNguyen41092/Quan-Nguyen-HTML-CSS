@@ -1,0 +1,8 @@
+.content-primary {
+  font-weight: var(--font-weight-primary);
+  font-size: var(--font-size-primary);
+  line-height: var(--line-height-primary);
+  text-align: center;
+  color: var(--color-black);
+  margin: 0;
+}

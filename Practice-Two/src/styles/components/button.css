@@ -1,0 +1,12 @@
+.btn {
+  background-color: var(--color-btn-buynow-bg);
+  width: 288px;
+  height: 64px;
+  color: var(--color-btn-buynow-text);
+  font-family: var(--font-family-primary);
+  font-weight: var(--font-weight-title-highlight);
+  font-size: var(--font-size-secondary);
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
