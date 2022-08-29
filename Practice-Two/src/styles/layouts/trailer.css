@@ -1,38 +1,103 @@
-.trailer-container {
-  padding: 0 16px;
+.trailer {
+  padding-top: 152px;
+  background-image: url(../../assets/images/trailer/trailer-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -150px;
 }
 
 /* 
     TRAILER IMAGE
 */
-.trailer-img {
+.trailer-img-container {
   position: relative;
-  background-image: url(../../assets/images/trailer/trailer-img.png);
-  background-position: center;
-  height: 208px;
+}
+
+.trailer-img {
+  width: 100%;
 }
 
 .trailer-play-btn {
   position: absolute;
   height: 121px;
-  width: 67px;
-  z-index: 1;
-  top: calc((100% - 121px) / 2);
-  left: calc((100% - 67px) / 2);
 }
 
 /* 
 TRAILER CONTENT
 */
 .trailer-content {
-    padding: 70px 0 120px 0;
-}
+  padding: 70px 0 120px 0;
+  margin: 0 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
 
 .trailer-content-title {
-    padding-bottom: 18px;
-    letter-spacing: 4px;
+  padding-bottom: 18px;
+  letter-spacing: 4px;
 }
 
 .trailer-content-text {
-    padding-bottom: 13px;
+  padding-bottom: 13px;
 }
+
+/* 
+  Responsive for 768px screen 
+*/
+/* @media screen and (min-width: 768px) {
+  .trailer {
+    padding-top: 230px;
+    background-image: url(../../assets/images/trailer/trailer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+  }
+
+  .trailer-container {
+    padding: 0 112px;
+  } */
+
+/* 
+    TRAILER IMAGE
+*/
+
+/* .trailer-img {
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 545px;
+}
+
+.trailer-play-btn {
+  position: absolute;
+  height: 321px;
+  width: 170px;
+  z-index: 1;
+  top: calc((100% - 321px) / 2);
+  left: calc((100% - 170px) / 2);
+} */
+
+/* 
+TRAILER CONTENT
+*/
+/* .trailer-content {
+  padding: 70px 0 120px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.trailer-content-title {
+  padding: 0 45px 17px 45px;
+  letter-spacing: 0.5px;
+}
+
+.trailer-content-text {
+  padding-bottom: 32px;
+}
+} */
+/* 
+Responsive for 1440px screen 
+*/
+/* @media screen and (min-width: 1440px) {
+} */
