@@ -36,6 +36,13 @@
 /* 
     HEADER BACKGROUND
 */
+.header-image {
+  width: 100%;
+  /* min-width: 320px; */
+  height: 336px;
+  object-fit: cover;
+}
+
 .container {
   padding: 0 16px;
 }
@@ -65,7 +72,7 @@
     HEADER CONTENT
 */
 .header-content {
-  width: 100%;
+  padding: 0 16px;
 }
 
 .header-description {
@@ -104,8 +111,9 @@
     HEADER LIST
 */
 .header-list {
-  padding-bottom: 45px;
+  padding: 0 16px 45px 16px;
 }
+
 .header-item {
   display: flex;
   flex-direction: column;
@@ -129,6 +137,5 @@
 /* 
   Responsive for 768 screen 
 */
-@media screen and (min-width: 768px){
-    
+@media screen and (min-width: 768px) {
 }
