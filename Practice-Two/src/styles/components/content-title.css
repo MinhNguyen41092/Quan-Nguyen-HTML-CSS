@@ -8,6 +8,8 @@
 }
 
 .content-title-highlight {
+  font-size: var(--font-size-title);
+  line-height: var(--line-height-title);
   font-family: var(--font-family-bold);
   font-weight: var(--font-weight-title-highlight);
   color: var(--color-violet);
