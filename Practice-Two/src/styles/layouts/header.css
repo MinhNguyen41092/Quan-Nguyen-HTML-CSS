@@ -4,7 +4,7 @@
   position: absolute;
   width: 123px;
   height: 124px;
-  left: 197px;
+  right: 0;
   top: 36px;
   background: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -66,19 +66,5 @@
     /* 
       HEADER NAVIGATION BAR
     */
-    .header-menu-icon {
-      display: none;
-    }
-  
-    .header-nav-list {
-      all: initial;
-    }
-  
-    .header-list-arrow {
-      display: none;
-    }
-  
-    .header-list-items {
-      flex-direction: row;
-    }
+    
 }

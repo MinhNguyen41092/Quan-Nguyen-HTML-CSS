@@ -1,14 +1,10 @@
 /* 
-    introduction IMAGE
+    INTRODUCTION IMAGE
 */
 .introduction-image {
   width: 100%;
   height: 336px;
   object-fit: cover;
-}
-
-.container {
-  padding: 0 16px;
 }
 
 .introduction-background {
@@ -33,7 +29,7 @@
 }
 
 /* 
-    introduction CONTENT
+    INTRODUCTION CONTENT
 */
 .introduction-content {
   padding: 0 16px;
@@ -79,7 +75,7 @@
 }
 
 /* 
-    introduction LIST
+    INTRODUCTION LIST
 */
 .introduction-list {
   padding: 0 16px 45px 16px;
@@ -103,6 +99,7 @@
   line-height: var(--line-height-secondary);
   color: var(--color-violet);
   padding-bottom: 6px;
+  text-align: center;
 }
 
 /* 
@@ -110,18 +107,18 @@
 */
 @media screen and (min-width: 768px) {
   /* 
-    introduction BACKGROUND
+    INTRODUCTION IMAGE
   */
   .introduction-image {
     height: 528px;
   }
 
   .introduction-view-btn {
-    margin-bottom: 24px;
+    margin-bottom: 8px;
   }
 
   /* 
-  introduction CONTENT
+  INTRODUCTION CONTENT
   */
   .introduction-content {
     padding: 0 112px;
@@ -152,7 +149,7 @@
   }
 
   /* 
-    introduction LIST
+    INTRODUCTION LIST
   */
   .introduction-list {
     display: grid;
@@ -168,15 +165,74 @@
 }
 
 /* 
-  Responsive for 1440px screen 
+Responsive for 1440px screen 
 */
 @media screen and (min-width: 1440px) {
- 
+  /* 
+    INTRODUCTION IMAGE
+  */
+  .introduction-view-btn {
+    margin-right: 119px;
+  }
 
+  .introduction-content-container {
+    padding: 0 135px;
+  }
 
+  /* 
+  INTRODUCTION CONTENT
+  */
+  .introduction-description-title,
+  .introduction-description-content,
+  .introduction-item-title,
+  .introduction-item-text {
+    text-align: left;
+  }
 
+  .introduction-description {
+    padding-top: 80px;
+  }
 
+  .introduction-description-content {
+    letter-spacing: 0.5px;
+  }
 
+  .introduction-description-action {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  /* 
+    INTRODUCTION LIST
+  */
+  .introduction-list {
+    grid-template-columns: 1fr;
+    row-gap: 29px;
+    padding: 160px 0 0 130px;
+  }
+
+  .introduction-item {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .introduction-item-description {
+    width: 390px;
+    padding-left: 20px;
+  }
+
+  .introduction-item-title {
+    padding: 23px 0 15px 0;
+  }
+
+  .introduction-item-text {
+    letter-spacing: 0.1px;
+    line-height: 24px;
+  }
+
+  .introduction-content {
+    padding: 0;
+  }
 
   .introduction-content-container {
     display: flex;
