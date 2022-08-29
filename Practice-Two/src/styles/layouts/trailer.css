@@ -1,0 +1,145 @@
+.trailer {
+  padding-top: 152px;
+  background-image: url(../../assets/images/trailer/trailer-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -150px;
+}
+
+/* 
+  TRAILER IMAGE
+*/
+.trailer-img-container {
+  position: relative;
+  padding: 0 16px;
+  max-width: 768px;
+}
+
+.trailer-img {
+  width: 100%;
+}
+
+.trailer-play-btn {
+  position: absolute;
+  height: 121px;
+  top: calc((100% - 121px) / 2);
+  left: calc((100% - 63.88px) / 2);
+}
+
+/* 
+  TRAILER CONTENT
+*/
+.trailer-content {
+  padding: 70px 0 120px;
+  margin: 0 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.trailer-content-title {
+  padding-bottom: 18px;
+  padding: 0 20px 18px;
+  text-align: center;
+}
+
+.trailer-content-text {
+  padding-bottom: 13px;
+}
+
+/* 
+  Responsive for 768px screen 
+*/
+@media screen and (min-width: 768px) {
+  .trailer {
+    padding-top: 230px;
+  }
+
+  /* 
+    TRAILER IMAGE
+  */
+  .trailer-image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .trailer-play-btn {
+    height: 321px;
+    top: calc((100% - 321px) / 2);
+    left: calc((100% - 170px) / 2);
+  }
+
+  /* 
+  TRAILER CONTENT
+  */
+  .trailer-container {
+    padding: 0 112px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .trailer-content {
+    padding: 70px 0 120px 0;
+  }
+
+  .trailer-content-title {
+    padding: 0 45px 17px;
+  }
+
+  .trailer-content-text {
+    padding-bottom: 32px;
+  }
+}
+
+/* 
+  Responsive for 1440px screen 
+*/
+@media screen and (min-width: 1440px) {
+  .trailer {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 0px;
+    background-position: left;
+  }
+
+  /* 
+    TRAILER IMAGE
+  */
+  .trailer-img-container {
+    margin: 0 135px 0 130px;
+    width: 570px;
+    height: 408px;
+  }
+  
+  .trailer-image {
+    padding-top: 290px;
+  }
+
+  .trailer-play-btn {
+    height: 240px;
+    top: calc((100% - 240px) / 2);
+    left: calc((100% - 132px) / 2);
+  }
+
+  /* 
+  TRAILER CONTENT
+  */
+  .trailer-container {
+    padding: 253px 0 120px 135px;
+  }
+  
+  .trailer-content {
+    align-items: flex-start;
+    padding: 0;
+  }
+
+  .trailer-content-title {
+    padding: 0;
+    padding-bottom: 17px;
+    text-align: left;
+  }
+
+  .trailer-content-text {
+    text-align: left;
+  }
+}
