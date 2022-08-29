@@ -55,7 +55,7 @@
   }
 
   .header-nav-list {
-    display: none !important;
+    display: none;
   }
 }
 
@@ -63,8 +63,36 @@
   Responsive for 1440px screen 
 */
 @media screen and (min-width: 1440px) {
-    /* 
-      HEADER NAVIGATION BAR
-    */
-    
+  .header-menu-icon,
+  .header-list-arrow {
+    display: none;
+  }
+
+  .header-nav-list {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    right: 0;
+    top: 0;
+    background: none;
+    box-shadow: none;
+    border-radius: none;
+  }
+
+  .header-list-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+    padding-right: 44px;
+  }
+
+  .header-list-item {
+    padding-left: 46px;
+  }
+
+  .header-highlight-item {
+    color: #FB8B24;
+  }
 }
