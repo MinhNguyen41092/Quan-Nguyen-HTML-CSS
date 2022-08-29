@@ -44,12 +44,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-.flex {
-    display: flex;
-}
-.grid {
-    display: grid;
-}
 p {
 	text-align: center;
 }
