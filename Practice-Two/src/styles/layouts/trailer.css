@@ -1,0 +1,38 @@
+.trailer-container {
+  padding: 0 16px;
+}
+
+/* 
+    TRAILER IMAGE
+*/
+.trailer-img {
+  position: relative;
+  background-image: url(../../assets/images/trailer/trailer-img.png);
+  background-position: center;
+  height: 208px;
+}
+
+.trailer-play-btn {
+  position: absolute;
+  height: 121px;
+  width: 67px;
+  z-index: 1;
+  top: calc((100% - 121px) / 2);
+  left: calc((100% - 67px) / 2);
+}
+
+/* 
+TRAILER CONTENT
+*/
+.trailer-content {
+    padding: 70px 0 120px 0;
+}
+
+.trailer-content-title {
+    padding-bottom: 18px;
+    letter-spacing: 4px;
+}
+
+.trailer-content-text {
+    padding-bottom: 13px;
+}
