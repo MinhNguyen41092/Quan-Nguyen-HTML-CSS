@@ -15,6 +15,10 @@
   z-index: 1;
 }
 
+.header-menu-icon {
+  display: none;
+}
+
 .header-list-items {
   height: 117px;
   padding: 4px 10px 4px 15px;
@@ -89,6 +93,12 @@
   padding-bottom: 24px;
 }
 
+.header-description-action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .header-description-btn {
   margin-bottom: 15px;
 }
@@ -135,7 +145,66 @@
 }
 
 /* 
-  Responsive for 768 screen 
+  Responsive for 768px screen 
 */
 @media screen and (min-width: 768px) {
+  /* 
+    HEADER NAVIGATION BAR
+  */
+  .header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-logo {
+    height: 140px;
+  }
+
+  .header-menu-icon {
+    display: block;
+    padding: 0 51px;
+  }
+
+  .header-nav-list {
+    display: none !important;
+  }
+
+  /* 
+    HEADER BACKGROUND
+  */
+  .header-image {
+    height: 528px;
+  }
+
+  .header-view-btn {
+    margin-bottom: 24px;
+  }
+
+  /* 
+  HEADER CONTENT
+  */
+  .header-content {
+    padding: 0 112px;
+  }
+
+  .header-description {
+    padding: 70px 0 84px 0;
+  }
+
+  .header-description-title {
+    letter-spacing: 0.1px;
+    padding-bottom: 5px;
+  }
+
+  .header-description-content {
+    letter-spacing: 0.1px;
+    padding-bottom: 24px;
+  }
+
+  .header-description-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
