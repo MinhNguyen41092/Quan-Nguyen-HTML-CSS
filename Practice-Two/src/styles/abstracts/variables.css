@@ -14,7 +14,7 @@
   --font-weight-title: 400;
   --font-weight-title-highlight: 900;
   --font-weight-primary: 300;
-  
+
   /* line height */
   --line-height-title: 56px;
   --line-height-subtitle: 40px;
@@ -22,8 +22,8 @@
   --line-height-secondary: 36px;
 
   /* color */
-  --color-violet: #5F0F40;
+  --color-violet: #5f0f40;
   --color-black: #000000;
-  --color-btn-buynow-bg: #FB8B24;
-  --color-btn-buynow-text: #FFFFFF;
+  --color-btn-buynow-bg: #fb8b24;
+  --color-btn-buynow-text: #ffffff;
 }

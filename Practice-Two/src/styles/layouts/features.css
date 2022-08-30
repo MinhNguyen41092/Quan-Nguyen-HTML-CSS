@@ -52,8 +52,8 @@
 }
 
 .features-container button {
-    margin: 0 auto;
-  }
+  margin: 0 auto;
+}
 
 /* 
   Responsive for 768px screen 
@@ -117,7 +117,9 @@
   }
 
   /* FEATURES INTRODUCTION */
-  .features-container h2, .features-container p, .features-container h3 {
+  .features-container h2,
+  .features-container p,
+  .features-container h3 {
     text-align: left;
   }
 
