@@ -1,5 +1,42 @@
+.extra-features {
+    padding: 0 16px;
+}
+/* 
+EXTRA FEATURES IMAGE
+*/
+.extra-features-image {
+    width: 100%;
+    max-width: 544px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+/* 
+EXTRA FEATURES CONTENT
+*/
 .extra-features-item-title {
     font-family: var(--font-family-bold);
     font-size: var(--font-size-secondary);
     line-height: var(--line-height-secondary);
+}
+
+.extra-features-title {
+    padding-bottom: 15px;
+}
+
+.extra-features-description {
+    padding-bottom: 71px;
+}
+
+.extra-features-list {
+    padding-bottom: 75px;
+}
+
+.extra-features-item {
+    padding-bottom: 12px;
+}
+
+.extra-features-item-icon {
+    margin: 0 auto;
+    padding-bottom: 15px;
 }
