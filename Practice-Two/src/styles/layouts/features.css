@@ -1,5 +1,5 @@
 .features {
-    padding: 80px 19px 59px;
+    padding: 80px 19px 89px;
 }
 
 /* FEATURES INTRODUCTION */
@@ -21,12 +21,16 @@
 }
 
 /* FEATURES CONTENT */
-/* .features-content, */
+.features-content,
 .features-item,
 .features-list-profit {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.features-item {
+    padding-bottom: 15px;
 }
 
 .features-item-title {
@@ -45,13 +49,18 @@
     padding-bottom: 13px;
 }
 
-.features-item-illustration {
-    padding-bottom: 30px;
-}
-
 .features-illustration-image {
     width: 100%;
     padding-bottom: 5px;
+}
+
+/* 
+  Responsive for 768px screen 
+*/
+@media screen and (min-width: 768px) {
+    .features {
+        padding: 96px 82px 59px;
+    }
 }
 
 
