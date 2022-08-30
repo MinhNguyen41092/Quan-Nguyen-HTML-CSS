@@ -5,9 +5,9 @@
 
   /* font size */
   --font-size-primary: 16px;
-  --font-size-secondary: 24px;
-  --font-size-subtitle: 32px;
-  --font-size-title: 48px;
+  --font-size-secondary: 1.5rem;
+  --font-size-subtitle: 2rem;
+  --font-size-title: 3rem;
 
   /* font weight */
   --font-weight-subtitle: 700;
