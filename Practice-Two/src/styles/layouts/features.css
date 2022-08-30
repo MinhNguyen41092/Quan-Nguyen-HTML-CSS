@@ -16,11 +16,8 @@
     padding-bottom: 19px;
 }
 
-.features-intro-paragraph {
-    /* letter-spacing: 0.1px; */
-}
-
 /* FEATURES CONTENT */
+.features-intro,
 .features-content,
 .features-item,
 .features-list-profit {
@@ -59,7 +56,35 @@
 */
 @media screen and (min-width: 768px) {
     .features {
-        padding: 96px 82px 59px;
+        padding: 96px 82px 159px;
+    }
+
+    /* FEATURES INTRODUCTION */
+    .features-intro {
+        padding-bottom: 75px;
+    }
+
+    .features-intro-illustration {
+        max-width: 352px;
+    }
+
+    .features-intro-title {
+        /* max-width: 720px; */
+        padding-bottom: 50px;
+    }
+
+    /* FEATURES CONTENT */
+    .features-item {
+        padding-bottom: 30px;
+    }
+
+    .features-item-illustration {
+        display: flex;
+        gap: 10px;
+    }
+
+    .features-illustration-image {
+        width: 230px;
     }
 }
 
