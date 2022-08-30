@@ -50,7 +50,8 @@ table {
 button {
 	cursor: pointer;
 }
-p {
+p, h2, h3 {
 	text-align: center;
 }
+
 

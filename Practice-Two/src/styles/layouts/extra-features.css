@@ -1,0 +1,5 @@
+.extra-features-item-title {
+    font-family: var(--font-family-bold);
+    font-size: var(--font-size-secondary);
+    line-height: var(--line-height-secondary);
+}
