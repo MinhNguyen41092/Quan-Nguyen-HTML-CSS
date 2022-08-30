@@ -1,5 +1,5 @@
 .features {
-    padding: 80px 19px 89px;
+    padding: 80px 19px 59px;
 }
 
 /* FEATURES INTRODUCTION */
@@ -43,6 +43,10 @@
 
 .features-profit-icon {
     padding-bottom: 13px;
+}
+
+.features-item-illustration {
+    padding-bottom: 30px;
 }
 
 .features-illustration-image {
