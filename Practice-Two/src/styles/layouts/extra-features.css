@@ -59,7 +59,7 @@ EXTRA FEATURES CONTENT
 
   .extra-features-list {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     gap: 35px 48px;
     padding-bottom: 39px;
   }
