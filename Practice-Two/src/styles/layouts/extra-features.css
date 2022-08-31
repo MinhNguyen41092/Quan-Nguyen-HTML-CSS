@@ -42,7 +42,7 @@ EXTRA FEATURES CONTENT
 }
 
 /* 
-  Responsive for 768px screen 
+  RESPONSIVE FOR 768px SCREEN
 */
 @media screen and (min-width: 768px) {
   .extra-features {
@@ -70,7 +70,7 @@ EXTRA FEATURES CONTENT
 }
 
 /* 
-  Responsive for 1440px screen 
+  RESPONSIVE FOR 1440px SCREEN
 */
 @media screen and (min-width: 1440px) {
   .extra-features {
