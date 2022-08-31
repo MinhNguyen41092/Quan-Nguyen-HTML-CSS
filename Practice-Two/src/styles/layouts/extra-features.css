@@ -61,5 +61,10 @@ EXTRA FEATURES CONTENT
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap:  35px 48px;
+    padding-bottom: 39px;
+  }
+
+  .extra-features-item:nth-of-type(3) {
+    order: 4;
   }
 }
