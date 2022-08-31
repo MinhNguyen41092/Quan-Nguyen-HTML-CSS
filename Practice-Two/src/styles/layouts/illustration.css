@@ -1,0 +1,43 @@
+.illustration {
+  padding: 80px 16px 0px;
+}
+
+/* 
+ILLUSTRATION INFORMATION
+*/
+.illustration-image {
+  width: 100%;
+  max-width: 352px;
+  margin: 0 auto;
+}
+
+.illustration-intro {
+  padding: 70px 0 40px;
+}
+
+.illustration-description {
+  padding: 18px 0 30px;
+}
+
+.illustration-subtitle {
+  font-family: var(--font-family-bold);
+  font-weight: 900;
+}
+
+.illustration-selected-color {
+  margin: 0 auto;
+}
+
+/* 
+ILLUSTRATION CONTENT
+*/
+.illustration-content {
+    padding-bottom: 56px;
+}
+
+.illustration-item {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+    padding-bottom: 24px;
+}
