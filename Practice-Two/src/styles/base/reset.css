@@ -22,7 +22,7 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu, nav, section, img {
 	display: block;
 }
 body {
@@ -50,7 +50,13 @@ table {
 button {
 	cursor: pointer;
 }
-p {
+p, h2, h3 {
 	text-align: center;
 }
+@media screen and (min-width: 1440px) {
+	h2, h3, p {
+		text-align: left;
+	}
+}
+
 

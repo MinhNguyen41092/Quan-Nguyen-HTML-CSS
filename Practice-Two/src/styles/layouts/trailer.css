@@ -40,7 +40,6 @@
 .trailer-content-title {
   padding-bottom: 18px;
   padding: 0 20px 18px;
-  text-align: center;
 }
 
 .trailer-content-text {
@@ -110,7 +109,7 @@
     width: 570px;
     height: 408px;
   }
-  
+
   .trailer-image {
     padding-top: 290px;
   }
@@ -127,7 +126,7 @@
   .trailer-container {
     padding: 253px 0 120px 135px;
   }
-  
+
   .trailer-content {
     align-items: flex-start;
     padding: 0;
@@ -136,10 +135,5 @@
   .trailer-content-title {
     padding: 0;
     padding-bottom: 17px;
-    text-align: left;
-  }
-
-  .trailer-content-text {
-    text-align: left;
   }
 }

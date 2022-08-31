@@ -98,7 +98,6 @@
   line-height: var(--line-height-secondary);
   color: var(--color-violet);
   padding-bottom: 6px;
-  text-align: center;
 }
 
 /* 
@@ -181,13 +180,6 @@ Responsive for 1440px screen
   /* 
   INTRODUCTION CONTENT
   */
-  .introduction-description-title,
-  .introduction-description-content,
-  .introduction-item-title,
-  .introduction-item-text {
-    text-align: left;
-  }
-
   .introduction-description {
     padding-top: 80px;
   }

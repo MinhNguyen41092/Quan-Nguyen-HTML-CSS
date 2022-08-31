@@ -1,0 +1,123 @@
+.extra-features {
+  padding: 0 16px;
+}
+/* 
+EXTRA FEATURES IMAGE
+*/
+.extra-features-image {
+  width: 100%;
+  max-width: 544px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+/* 
+EXTRA FEATURES CONTENT
+*/
+.extra-features-item-title {
+  font-family: var(--font-family-bold);
+  font-size: var(--font-size-secondary);
+  line-height: var(--line-height-secondary);
+}
+
+.extra-features-title {
+  padding-bottom: 15px;
+}
+
+.extra-features-description {
+  padding-bottom: 71px;
+}
+
+.extra-features-list {
+  padding-bottom: 75px;
+}
+
+.extra-features-item {
+  padding-bottom: 12px;
+}
+
+.extra-features-item-icon {
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+
+/* 
+  Responsive for 768px screen 
+*/
+@media screen and (min-width: 768px) {
+  .extra-features {
+    padding: 0 48px;
+  }
+  /* 
+    EXTRA FEATURES CONTENT
+  */
+  .extra-features-description,
+  .extra-features-title {
+    max-width: 470px;
+    margin: 0 auto;
+  }
+
+  .extra-features-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px 48px;
+    padding-bottom: 39px;
+  }
+
+  .extra-features-item:nth-of-type(3) {
+    order: 4;
+  }
+}
+
+/* 
+  Responsive for 1440px screen 
+*/
+@media screen and (min-width: 1440px) {
+  .extra-features {
+    display: flex;
+    flex-direction: row-reverse;
+    /* align-items: center; */
+    padding: 70px 185px 0px;
+    gap: 131px;
+  }
+
+  /* 
+  EXTRA FEATURES IMAGE
+  */
+  .extra-features-image {
+    width: 469px;
+    padding: 98px 0px 40px;
+  }
+
+  /* 
+    EXTRA FEATURES CONTENT
+  */
+  .extra-features-title {
+    font-weight: 400;
+    font-family: var(--font-family-primary);
+  }
+
+  /* .extra-features h2, .extra-features h3, .extra-features p {
+    text-align: left;
+  } */
+
+  .extra-features-description {
+    padding-bottom: 30px;
+  }
+
+  .extra-features-list {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    padding-bottom: 39px;
+  }
+
+  .extra-features-item {
+    display: grid;
+    grid-template-columns: 12% 88%;
+    gap: 21px;
+  }
+
+  .extra-features-item:nth-of-type(3) {
+    order: unset;
+  }
+}
