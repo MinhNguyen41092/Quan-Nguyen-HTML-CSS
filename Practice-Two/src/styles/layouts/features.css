@@ -117,12 +117,6 @@
   }
 
   /* FEATURES INTRODUCTION */
-  .features-container h2,
-  .features-container p,
-  .features-container h3 {
-    text-align: left;
-  }
-
   .features-intro {
     flex-direction: row-reverse;
     justify-content: space-between;

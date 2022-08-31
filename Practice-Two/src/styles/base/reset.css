@@ -53,5 +53,10 @@ button {
 p, h2, h3 {
 	text-align: center;
 }
+@media screen and (min-width: 1440px) {
+	h2, h3, p {
+		text-align: left;
+	}
+}
 
 

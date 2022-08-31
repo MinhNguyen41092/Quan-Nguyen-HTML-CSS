@@ -40,7 +40,6 @@
 .trailer-content-title {
   padding-bottom: 18px;
   padding: 0 20px 18px;
-  text-align: center;
 }
 
 .trailer-content-text {
@@ -136,10 +135,5 @@
   .trailer-content-title {
     padding: 0;
     padding-bottom: 17px;
-    text-align: left;
-  }
-
-  .trailer-content-text {
-    text-align: left;
   }
 }

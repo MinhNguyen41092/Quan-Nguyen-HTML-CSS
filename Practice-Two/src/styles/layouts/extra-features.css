@@ -97,9 +97,9 @@ EXTRA FEATURES CONTENT
     font-family: var(--font-family-primary);
   }
 
-  .extra-features h2, .extra-features h3, .extra-features p {
+  /* .extra-features h2, .extra-features h3, .extra-features p {
     text-align: left;
-  }
+  } */
 
   .extra-features-description {
     padding-bottom: 30px;
