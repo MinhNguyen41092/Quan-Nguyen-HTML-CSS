@@ -36,7 +36,7 @@
 }
 
 /* 
-  Responsive for 768px screen 
+  RESPONSIVE FOR 768px SCREEN
 */
 @media screen and (min-width: 768px) {
   .header-nav {
@@ -60,7 +60,7 @@
 }
 
 /* 
-  Responsive for 1440px screen 
+  RESPONSIVE FOR 1440px SCREEN
 */
 @media screen and (min-width: 1440px) {
   .header-menu-icon,
