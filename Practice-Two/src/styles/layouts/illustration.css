@@ -4,7 +4,7 @@
 }
 
 /* 
-ILLUSTRATION INFORMATION
+  ILLUSTRATION INFORMATION
 */
 .illustration-image {
   width: 100%;
@@ -30,7 +30,7 @@ ILLUSTRATION INFORMATION
 }
 
 /* 
-ILLUSTRATION CONTENT
+  ILLUSTRATION CONTENT
 */
 .illustration-item {
   width: 100%;
@@ -48,7 +48,7 @@ ILLUSTRATION CONTENT
   }
 
   /* 
-  ILLUSTRATION INFORMATION
+    ILLUSTRATION INFORMATION
   */
   .illustration-intro {
     margin: 0 auto;
@@ -56,7 +56,7 @@ ILLUSTRATION CONTENT
   }
 
   /* 
-  ILLUSTRATION CONTENT
+    ILLUSTRATION CONTENT
   */
   .illustration-content {
     display: flex;
@@ -82,7 +82,7 @@ ILLUSTRATION CONTENT
   }
 
   /* 
-  ILLUSTRATION INFORMATION
+    ILLUSTRATION INFORMATION
   */
   .illustration-info {
     display: flex;
@@ -102,7 +102,7 @@ ILLUSTRATION CONTENT
   }
 
   /* 
-  ILLUSTRATION CONTENT
+    ILLUSTRATION CONTENT
   */
   .illustration-content {
     gap: 30px;
