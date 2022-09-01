@@ -1,5 +1,5 @@
-.illustration {
-  padding: 80px 16px 56px 16px;
+.illustration-container {
+  padding: 80px 16px 56px;
   background-color: #fbfbfb;
 }
 
@@ -43,7 +43,7 @@ ILLUSTRATION CONTENT
   RESPONSIVE FOR 768px SCREEN
 */
 @media screen and (min-width: 768px) {  
-  .illustration {
+  .illustration-container {
     padding-bottom: 64px;
   }
 
@@ -68,3 +68,47 @@ ILLUSTRATION CONTENT
     padding-bottom: 16px;
   }
 } 
+
+/* 
+  RESPONSIVE FOR 768px SCREEN
+*/
+@media screen and (min-width: 1440px) {  
+  .illustration {
+    padding: 0 135px;
+  }
+
+  .illustration-container {
+    padding: 30px;
+  }
+
+  /* 
+  ILLUSTRATION INFORMATION
+  */
+  .illustration-info {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+  .illustration-intro {
+    max-width: 470px;
+    margin: 0;
+  }
+
+  .illustration-selected-color {
+    margin: 0;
+  }
+
+  /* 
+  ILLUSTRATION CONTENT
+  */
+  .illustration-content {
+    gap: 30px;
+  }
+  .illustration-item {
+    max-width: 500px;
+    padding-bottom: 40px;
+  }
+}
