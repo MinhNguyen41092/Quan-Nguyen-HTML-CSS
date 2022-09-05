@@ -1,7 +1,0 @@
-.content-secondary {
-  font-weight: var(--font-weight-primary);
-  font-size: var(--font-size-secondary);
-  line-height: var(--line-height-subtitle);
-  color: var(--color-black);
-  margin: 0;
-}
