@@ -36,6 +36,7 @@
 
 .questions-item {
   max-width: 540px;
+  margin: 0 auto;
 }
 
 .questions-item-title {
@@ -56,7 +57,7 @@
 }
 
 .questions-item-text-mobile {
-  background-color: #F3F3F3;
+  background-color: #f3f3f3;
   max-width: 540px;
   position: relative;
   padding: 0 16px;
@@ -67,9 +68,91 @@
   left: 0px;
   width: 4px;
   height: 100%;
-  background-color: #700AAB;
+  background-color: #700aab;
 }
 
 .questions-item-text-desktop {
   display: none;
+}
+
+/* 
+  RESPONSIVE FOR 768px SCREEN
+*/
+@media screen and (min-width: 768px) {
+  .questions-container {
+    padding: 0 112px 87px;
+  }
+
+  .questions-info-container {
+    padding: 0;
+  }
+
+  /* 
+    QUESTIONS INFORMATION
+  */
+  .questions-image {
+    max-width: 350px;
+  }
+
+  /* 
+    QUESTIONS CONTENT
+  */
+  .questions-item {
+    padding-bottom: 24px;
+  }
+
+  .questions-item-title {
+    gap: 30px;
+    padding: 16px 23px;
+    border: none;
+  }
+
+  .questions-item-description-mobile {
+    color: var(--color-black);
+    font-weight: var(--font-weight-primary);
+  }
+
+  .questions-item-text-mobile {
+    display: none;
+  }
+
+  .questions-item-description-desktop {
+    color: var(--color-violet);
+    font-weight: var(--font-weight-subtitle);
+  }
+
+  .questions-item-text-desktop {
+    display: block;
+    background-color: #ffffff;
+    padding-left: 23px;
+    max-width: 460px;
+  }
+}
+
+/* 
+  RESPONSIVE FOR 1440px SCREEN
+*/
+@media screen and (min-width: 1440px) {
+  .questions-container {
+    padding: 0 135px 80px;
+  }
+
+  /* 
+    QUESTIONS INFORMATION
+  */
+  .questions-info {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .questions-intro {
+    margin: 0;
+    max-width: 570px;
+  }
+
+  .questions-image {
+    max-width: 470px;
+  }
 }
