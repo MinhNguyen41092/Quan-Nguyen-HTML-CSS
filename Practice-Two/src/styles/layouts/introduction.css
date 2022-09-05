@@ -1,5 +1,5 @@
 /* 
-    INTRODUCTION IMAGE
+  INTRODUCTION IMAGE
 */
 .introduction-image {
   width: 100%;
@@ -28,7 +28,7 @@
 }
 
 /* 
-    INTRODUCTION CONTENT
+  INTRODUCTION CONTENT
 */
 .introduction-content {
   padding: 0 16px;
@@ -74,7 +74,7 @@
 }
 
 /* 
-    INTRODUCTION LIST
+  INTRODUCTION LIST
 */
 .introduction-list {
   padding: 0 16px 45px 16px;
@@ -116,7 +116,7 @@
   }
 
   /* 
-  INTRODUCTION CONTENT
+    INTRODUCTION CONTENT
   */
   .introduction-content {
     padding: 0 112px;
@@ -178,7 +178,7 @@ RESPONSIVE FOR 1440px SCREEN
   }
 
   /* 
-  INTRODUCTION CONTENT
+    INTRODUCTION CONTENT
   */
   .introduction-description {
     padding-top: 80px;
