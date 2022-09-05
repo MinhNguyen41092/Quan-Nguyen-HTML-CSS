@@ -1,0 +1,62 @@
+.reviews {
+    padding: 0 16px;
+}
+
+/* 
+  REVIEWS INFORMATION
+*/
+.reviews-image {
+    max-width: 140px;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+
+.reviews-intro {
+    max-width: 540px;
+    margin: 0 auto;
+    padding-bottom: 65px;
+}
+
+.reviews-title {
+    padding-bottom: 20px;
+}
+
+/* 
+  REVIEWS CONTENT
+*/
+.reviews-content-title {
+    padding-bottom: 65px;
+}
+
+.reviews-comments-item {
+    max-width: 540px;
+    margin: 0 auto;
+    padding-bottom: 41px;
+}
+
+.reviews-comments-stars {
+    margin: 0 auto;
+    padding-bottom: 16px;
+}
+
+.reviews-comments-user {
+    line-height: 40px;
+}
+
+.reviews-comments-user-highlight {
+    font-family: var(--font-family-bold);
+    font-weight: var(--font-weight-title-highlight);
+}
+
+.reviews-comments-description {
+    padding-bottom: 30px;
+}
+
+.reviews-comments-image {
+    margin: 0 auto;
+    padding-bottom: 24px;
+}
+
+.reviews-arrows {
+    display: none;
+}
