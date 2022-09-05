@@ -155,4 +155,26 @@
   .questions-image {
     max-width: 470px;
   }
+
+  /* 
+    QUESTIONS CONTENT
+  */
+  .questions-content {
+    display: grid;
+    grid-template-columns: repeat(2, 570px);
+    column-gap: 30px;
+  }
+
+  .questions-item {
+    max-width: 570px;
+  }
+  
+  .questions-item-title {
+    max-width: 570px;
+  }
+
+  .questions-item-text-desktop {
+    max-width: 540px;
+    padding-right: 65px;
+  }
 }
