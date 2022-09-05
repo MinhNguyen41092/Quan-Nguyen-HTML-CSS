@@ -35,7 +35,7 @@
 .reviews-comments-item {
   max-width: 540px;
   margin: 0 auto;
-  padding-bottom: 41px;
+  padding-bottom: 14px;
 }
 
 .reviews-comments-stars {
@@ -84,7 +84,7 @@
     REVIEWS CONTENT
   */
   .reviews-content {
-    padding-bottom: 38px;
+    padding-bottom: 65px;
   }
 
   .reviews-comments-description {
