@@ -167,6 +167,7 @@
   }
 
   .reviews-comments-images {
+    grid-template-columns: repeat(2, 170px);
     gap: 16px;
   }
 
