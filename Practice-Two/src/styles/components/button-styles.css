@@ -1,9 +1,9 @@
 .btn-primary {
-  background-color: var(--color-btn-buynow-bg);
+  background-color: var(--color-bg-btn-primary);
   width: 100%;
   max-width: 320px;
   height: 64px;
-  color: var(--color-btn-buynow-text);
+  color: var(--color-text-btn-primary);
   font-family: var(--font-family-bold);
   font-weight: var(--font-weight-title-highlight);
   font-size: var(--font-size-secondary);
