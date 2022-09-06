@@ -151,6 +151,7 @@
   .footer-content {
     display: flex;
     align-items: center;
+    padding-bottom: 80px;
   }
 
   .footer-form {
@@ -159,9 +160,6 @@
 
   .footer-item {
     align-items: flex-start;
-  }
-
-  .footer-item {
     gap: 17px;
   }
 }
