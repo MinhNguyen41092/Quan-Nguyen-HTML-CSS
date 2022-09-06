@@ -1,5 +1,5 @@
 .questions {
-  background-color: #fbfbfb;
+  background-color: var(--background-color-primary);
   padding-top: 80px;
 }
 
@@ -46,7 +46,7 @@
   gap: 16px;
   background-color: #ffffff;
   padding: 21px 16px 19px;
-  border: 2px solid #fbfbfb;
+  border: 2px solid var(--background-color-primary);
   max-width: 540px;
 }
 
