@@ -1,0 +1,1 @@
+<?php header( 'Location: <div class=""></div>/src/index.html' ) ; ?>
