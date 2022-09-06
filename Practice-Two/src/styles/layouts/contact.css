@@ -96,12 +96,19 @@
     border-radius: 3px;
   }
 
+  .contact-information {
+    padding: 40px 0 48px;
+    margin: 0 auto;
+  }
+
   .contact-item {
     padding-bottom: 27px;
   }
 
-  .contact-contact {
-    padding: 40px 0 48px;
+  .contact-item-info {
+    font-weight: var(--font-weight-primary);
+    font-size: var(--font-size-secondary);
+    line-height: var(--line-height-subtitle);
   }
 }
 
@@ -126,6 +133,10 @@
 
   .contact-intro {
     max-width: 570px;
+  }
+
+  .contact-title {
+    max-width: 470px;
   }
 
   .contact-image {
