@@ -1,6 +1,6 @@
 .illustration-container {
   padding: 80px 16px 56px;
-  background-color: #fbfbfb;
+  background-color: var(--background-color-primary);
 }
 
 /* 

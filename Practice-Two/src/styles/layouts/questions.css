@@ -1,5 +1,5 @@
 .questions {
-  background-color: #fbfbfb;
+  background-color: var(--background-color-primary);
   padding-top: 80px;
 }
 
@@ -46,13 +46,13 @@
   gap: 16px;
   background-color: #ffffff;
   padding: 21px 16px 19px;
-  border: 2px solid #fbfbfb;
+  border: 2px solid var(--background-color-primary);
   max-width: 540px;
 }
 
 .questions-item-description-mobile {
   max-width: 460px;
-  color: var(--color-violet);
+  color: var(--color-primary);
   font-weight: var(--font-weight-subtitle);
 }
 
@@ -108,7 +108,7 @@
   }
 
   .questions-item-description-mobile {
-    color: var(--color-black);
+    color: var(--color-secondary);
     font-weight: var(--font-weight-primary);
   }
 
@@ -117,7 +117,7 @@
   }
 
   .questions-item-description-desktop {
-    color: var(--color-violet);
+    color: var(--color-primary);
     font-weight: var(--font-weight-subtitle);
   }
 

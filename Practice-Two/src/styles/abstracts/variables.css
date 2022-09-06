@@ -5,9 +5,9 @@
 
   /* font size */
   --font-size-primary: 16px;
-  --font-size-secondary: 1.5rem;
-  --font-size-subtitle: 2rem;
-  --font-size-title: 3rem;
+  --font-size-secondary: 24px;
+  --font-size-subtitle: 32px;
+  --font-size-title: 48px;
 
   /* font weight */
   --font-weight-subtitle: 700;
@@ -22,8 +22,11 @@
   --line-height-secondary: 36px;
 
   /* color */
-  --color-violet: #5f0f40;
-  --color-black: #000000;
-  --color-btn-buynow-bg: #fb8b24;
-  --color-btn-buynow-text: #ffffff;
+  --color-primary: #5f0f40;
+  --color-secondary: #000000;
+  --color-bg-btn-primary: #fb8b24;
+  --color-text-btn-primary: #ffffff;
+
+  /* background-color */
+  --background-color-primary: #FBFBFB;
 }
