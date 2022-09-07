@@ -42,17 +42,17 @@
 
 *Step 1:* Clone Repository
 
-- HTTPS: $ git clone https://github.com/MinhNguyen41092/Quan-Nguyen-HTML-CSS.git
-- SSH: $ git clone git@github.com:MinhNguyen41092/Quan-Nguyen-HTML-CSS.git
+- HTTPS: `$ git clone https://github.com/MinhNguyen41092/Quan-Nguyen-HTML-CSS.git`
+- SSH: `$ git clone git@github.com:MinhNguyen41092/Quan-Nguyen-HTML-CSS.git`
 
 *Step 2:* Select Branch
 
-- Select the branch named 'feature/practice-two'
+- Select the branch named `feature/practice-two`
 
 *Step 3:* Install Parcel
 
-- Run the following command on the terminal to install Parcel: 'npm install --save-dev parcel'
+- Run the following command on the terminal to install Parcel: `npm install --save-dev parcel`
 
 *Step 4:* Run the website
 
-- Run the following command on the terminal to run the website: 'npm run start'
+- Run the following command on the terminal to run the website: `npm run start`
