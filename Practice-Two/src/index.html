@@ -32,34 +32,14 @@
     HTMLInspector.inspect();
   </script>
 
-  <script>
-    function navBarTransition() {
-      // var x = document.getElementById("header-list");
-      // if (x.style.display === "flex") {
-      //   x.style.display = "none";
-      // } else {
-      //   x.style.display = "flex";
-      // }
-      var x = document.getElementById("header-list");
-      x.classList.toggle("hidden");
+<script>
+  function navBarTransition() {
+    var x = document.getElementById("header-list");
+    if (x.style.display === "flex") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "flex";
     }
-
-    // document.getElementById("header-open-icon").addEventListener(
-    //   "click",
-    //   () => {
-    //     // document.getElementById("header-open-icon").hidden = true;
-    //     document.getElementById("header-list").hidden = false;
-    //   },
-    //   false
-    // );
-
-    // document.getElementById("header-close-icon").addEventListener(
-    //   "click",
-    //   () => {
-    //     // document.getElementById("header-open-icon").hidden = false;
-    //     document.getElementById("header-list").hidden = true;
-    //   },
-    //   false
-    // );
-  </script>
+  }
+</script>
 </html>
