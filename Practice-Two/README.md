@@ -34,19 +34,23 @@ Visual studio code
 
 
 ## HOW TO RUN THE PROJECT
-**Step 1:** *Clone Repository*
+**Option 1**
+*Run by deployed site* [Practice-Two](https://practice-two-responsive-nquan.netlify.app/)
 
-- HTTPS: https://github.com/MinhNguyen41092/Quan-Nguyen-HTML-CSS.git
-- SSH: 
+**Option 2** *Run on VS Code*
+*Step 1:* Clone Repository
 
-**Step 2:** *Select Branch*
+- HTTPS: '$ git clone https://github.com/MinhNguyen41092/Quan-Nguyen-HTML-CSS.git'
+- SSH: '$ git clone git@github.com:MinhNguyen41092/Quan-Nguyen-HTML-CSS.git'
+
+*Step 2:* Select Branch
 
 - Select the branch named 'feature/practice-two'
 
-**Step 3:** *Install Parcel*
+*Step 3:* Install Parcel
 
 - Run the following command on the terminal to install Parcel: 'npm install --save-dev parcel'
 
-**Step 4:** *Run the website*
+*Step 4:* Run the website
 
 - Run the following command on the terminal to run the website: 'npm run start'
