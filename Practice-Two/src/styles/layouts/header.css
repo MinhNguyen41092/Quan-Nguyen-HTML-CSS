@@ -73,7 +73,7 @@
     align-items: center;
   }
 
-  #header-nav-list {
+  .header-nav-list {
     display: block;
     position: relative;
     width: auto;
