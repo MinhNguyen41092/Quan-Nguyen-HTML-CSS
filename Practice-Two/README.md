@@ -17,16 +17,16 @@
 - Posthtml v0.16
 
 ## TIMELINE
-Form 26/8/2022 to 6/9/2022 
+- Form 26/8/2022 to 6/9/2022 
 
 ## TIME SIZE
-1 dev
+- 1 dev
 
 ## EDITOR
-Visual studio code
+- Visual Studio Code
 
 ## TARGET
-- uild a responsive website working well on Chrome browser
+- Build a responsive website working well on Chrome browser
 - Improve using HTML tags and CSS selectors
 - Apply 7-1 pattern
 - Apply Posthtml
@@ -34,10 +34,12 @@ Visual studio code
 
 
 ## HOW TO RUN THE PROJECT
-**Option 1**
+**Option 1:**
+
 *Run by deployed site* [Practice-Two](https://practice-two-responsive-nquan.netlify.app/)
 
 **Option 2** *Run on VS Code*
+
 *Step 1:* Clone Repository
 
 - HTTPS: '$ git clone https://github.com/MinhNguyen41092/Quan-Nguyen-HTML-CSS.git'
