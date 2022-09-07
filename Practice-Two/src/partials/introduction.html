@@ -3,13 +3,28 @@
 -->
 <div class="introduction-background">
   <button type="button" class="introduction-view-btn">View Gallery</button>
-  <figure>
+  <!-- <figure>
     <img
       src="./assets/images/introduction/introduction-bg.png"
       alt=""
       class="introduction-image"
     />
-  </figure>
+  </figure> -->
+  <picture>
+    <source
+      media="(min-width:1440px)"
+      srcset="./assets/images/introduction/introduction-bg-desktop.png"
+    />
+    <source
+      media="(min-width:768px)"
+      srcset="./assets/images/introduction/introduction-bg-tablet.png"
+    />
+    <img
+      src="./assets/images/introduction/introduction-bg-mobile.png"
+      alt="questions-down-arrow"
+      class="introduction-image"
+    />
+  </picture>
 </div>
 
 <!--
