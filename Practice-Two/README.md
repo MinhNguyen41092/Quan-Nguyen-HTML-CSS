@@ -34,11 +34,11 @@
 
 
 ## HOW TO RUN THE PROJECT
-**Option 1:**
+**Option 1:** *Run by deployed site* 
 
-*Run by deployed site* [Practice-Two](https://practice-two-responsive-nquan.netlify.app/)
+[Practice-Two](https://practice-two-responsive-nquan.netlify.app/)
 
-**Option 2** *Run on VS Code*
+**Option 2:** *Run on VS Code*
 
 *Step 1:* Clone Repository
 
