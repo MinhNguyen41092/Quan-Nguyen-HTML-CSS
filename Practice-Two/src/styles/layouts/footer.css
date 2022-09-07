@@ -1,5 +1,8 @@
-.footer-copyright {
+.footer {
   width: 100%;
+}
+
+.footer-copyright {
   height: 112px;
   padding: 25px 45px;
   line-height: var(--line-height-primary);
