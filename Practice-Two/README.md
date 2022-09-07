@@ -42,8 +42,8 @@
 
 *Step 1:* Clone Repository
 
-- HTTPS: '$ git clone https://github.com/MinhNguyen41092/Quan-Nguyen-HTML-CSS.git'
-- SSH: '$ git clone git@github.com:MinhNguyen41092/Quan-Nguyen-HTML-CSS.git'
+- HTTPS: $ git clone https://github.com/MinhNguyen41092/Quan-Nguyen-HTML-CSS.git
+- SSH: $ git clone git@github.com:MinhNguyen41092/Quan-Nguyen-HTML-CSS.git
 
 *Step 2:* Select Branch
 
