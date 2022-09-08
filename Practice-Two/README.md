@@ -57,13 +57,13 @@
 
 `git checkout feature/practice-two`
 
-*Step 3:* Install Package
+*Step 4:* Install Package
 
 - Run the following command on the terminal to install packages: 
 
 `npm install`
 
-*Step 4:* Run the website
+*Step 5:* Run the website
 
 - Run the following command on the terminal to run the website: 
 
