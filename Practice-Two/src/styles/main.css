@@ -1,8 +1,8 @@
-@import url(./base/all.css);
+@import url(./base/index.css);
 
 @import url(./abstracts/variables.css);
 
-@import url(./components/all.css);
+@import url(./components/index.css);
 
-@import url(./layouts/all.css);
+@import url(./layouts/index.css);
 
