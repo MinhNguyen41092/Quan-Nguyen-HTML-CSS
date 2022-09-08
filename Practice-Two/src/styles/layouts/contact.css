@@ -49,11 +49,11 @@
 }
 
 .contact-form-query {
-  border-bottom: 1px solid #bdbdbd;
+  border-bottom: 1px solid var(--color-tertiary);
 }
 
 .contact-form-box::placeholder {
-  color: #bdbdbd;
+  color: var(--color-tertiary);
 }
 
 .contact-btn {
