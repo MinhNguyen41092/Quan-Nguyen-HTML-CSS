@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>MODERNO Furnitures</title>
+  </head>
+  <body>
+    <include src="./partials/header.html"></include>
+    <div class="container">
+      <include src="./partials/introduction.html"></include>
+      <include src="./partials/trailer.html"></include>
+      <include src="./partials/features.html"></include>
+      <include src="./partials/extra-features.html"></include>
+      <include src="./partials/illustration.html"></include>
+      <include src="./partials/reviews.html"></include>
+      <include src="./partials/questions.html"></include>
+      <include src="./partials/contact.html"></include>
+    </div>
+    <include src="./partials/footer.html"></include>
+  </body>
+
+  <!-- Add Html Inspector -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/html-inspector/0.8.2/html-inspector.js"></script>
+  <script>
+    HTMLInspector.inspect();
+  </script>
+
+<script>
+  function navBarTransition() {
+    var x = document.getElementById("header-list");
+    if (x.style.display === "flex") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "flex";
+    }
+  }
+</script>
+</html>

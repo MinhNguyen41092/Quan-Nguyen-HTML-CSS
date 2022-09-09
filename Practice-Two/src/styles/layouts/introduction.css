@@ -1,0 +1,248 @@
+/* 
+  INTRODUCTION IMAGE
+*/
+.introduction-background {
+  width: 100%;
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+.introduction-image {
+  width: 100%;
+  max-width: 540px;
+}
+
+.introduction-background {
+  position: relative;
+}
+
+.introduction-view-btn {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  width: 192px;
+  height: 48px;
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+  background-color: transparent;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: var(--font-weight-subtitle);
+  font-size: var(--font-size-primary);
+  line-height: 24px;
+}
+
+/* 
+  INTRODUCTION CONTENT
+*/
+.introduction-content {
+  padding: 0 16px;
+}
+
+.introduction-description {
+  padding: 54px 0 96px 0;
+}
+
+.introduction-description-title {
+  letter-spacing: 0.5px;
+  padding-bottom: 17px;
+}
+
+.introduction-description-content {
+  letter-spacing: 0.5px;
+  padding-bottom: 24px;
+}
+
+.introduction-description-action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.introduction-description-btn {
+  margin-bottom: 15px;
+}
+
+.introduction-description-price {
+  display: block;
+  line-height: 24px;
+}
+
+.introduction-description-cost {
+  display: block;
+  max-width: 120px;
+  background-color: var(--color-primary);
+  padding: 4px 8px;
+  color: #ffffff;
+  border-radius: 2px;
+  margin: 0px auto;
+}
+
+/* 
+  INTRODUCTION LIST
+*/
+.introduction-list {
+  padding: 0 16px 45px 16px;
+}
+
+.introduction-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 27px;
+}
+
+.introduction-item-icon {
+  padding-bottom: 15px;
+}
+
+.introduction-item-title {
+  font-family: var(--font-family-bold);
+  font-size: var(--font-size-secondary);
+  font-weight: var(--font-weight-title-highlight);
+  line-height: var(--line-height-secondary);
+  color: var(--color-primary);
+  padding-bottom: 6px;
+}
+
+/* 
+  RESPONSIVE FOR 768px SCREEN
+*/
+@media screen and (min-width: 768px) {
+  /* 
+    INTRODUCTION IMAGE
+  */
+  .introduction-background {
+    max-width: 960px;
+  }
+  
+  .introduction-image {
+    max-width: 960px;
+  }
+
+  .introduction-view-btn {
+    margin-bottom: 8px;
+  }
+
+  /* 
+    INTRODUCTION CONTENT
+  */
+  .introduction-content {
+    padding: 0 112px;
+  }
+
+  .introduction-description {
+    padding: 70px 0 84px 0;
+  }
+
+  .introduction-description-title {
+    letter-spacing: 0.1px;
+    padding-bottom: 5px;
+  }
+
+  .introduction-description-content {
+    letter-spacing: 0.1px;
+    padding-bottom: 24px;
+  }
+
+  .introduction-description-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .introduction-description-cost {
+    display: inline-block;
+  }
+
+  /* 
+    INTRODUCTION LIST
+  */
+  .introduction-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px 64px;
+    padding: 0 64px;
+    padding-bottom: 10px;
+  }
+
+  .introduction-item {
+    padding: 0;
+  }
+}
+
+/* 
+RESPONSIVE FOR 1440px SCREEN
+*/
+@media screen and (min-width: 1440px) {
+  /* 
+    INTRODUCTION IMAGE
+  */
+  .introduction-background {
+    max-width: 1440px;
+  }
+  
+  .introduction-image {
+    max-width: 1440px;
+  }
+
+  .introduction-view-btn {
+    margin-right: 119px;
+  }
+
+  .introduction-content-container {
+    padding: 0 135px;
+  }
+
+  /* 
+    INTRODUCTION CONTENT
+  */
+  .introduction-description {
+    padding-top: 80px;
+  }
+
+  .introduction-description-content {
+    letter-spacing: 0.5px;
+  }
+
+  .introduction-description-action {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  /* 
+    INTRODUCTION LIST
+  */
+  .introduction-list {
+    grid-template-columns: 1fr;
+    row-gap: 29px;
+    padding: 160px 0 0 130px;
+  }
+
+  .introduction-item {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .introduction-item-description {
+    width: 390px;
+    padding-left: 20px;
+  }
+
+  .introduction-item-title {
+    padding: 23px 0 15px 0;
+  }
+
+  .introduction-item-text {
+    letter-spacing: 0.1px;
+    line-height: 24px;
+  }
+
+  .introduction-content {
+    padding: 0;
+  }
+
+  .introduction-content-container {
+    display: flex;
+  }
+}
