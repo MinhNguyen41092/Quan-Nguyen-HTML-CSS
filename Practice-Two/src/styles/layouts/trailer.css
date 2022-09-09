@@ -7,23 +7,14 @@
 }
 
 /* 
-  TRAILER IMAGE
+  TRAILER VIDEO
 */
-.trailer-img-container {
-  position: relative;
+.trailer-video-container {
   padding: 0 16px;
-  max-width: 768px;
 }
 
-.trailer-img {
+.trailer-video-container video {
   width: 100%;
-}
-
-.trailer-play-btn {
-  position: absolute;
-  height: 121px;
-  top: calc((100% - 121px) / 2);
-  left: calc((100% - 63.88px) / 2);
   cursor: pointer;
 }
 
@@ -56,23 +47,17 @@
   }
 
   /* 
-    TRAILER IMAGE
+    TRAILER VIDEO
   */
-  .trailer-image {
-    display: flex;
-    justify-content: center;
-  }
-
-  .trailer-play-btn {
-    height: 321px;
-    top: calc((100% - 321px) / 2);
-    left: calc((100% - 170px) / 2);
+  .trailer-video-container {
+    max-width: 960px;
+    margin: 0 auto;
   }
 
   /* 
     TRAILER CONTENT
   */
-  .trailer-container {
+  .trailer-content-container {
     padding: 0 112px;
     display: flex;
     flex-direction: row;
@@ -98,42 +83,36 @@
   .trailer {
     display: flex;
     flex-direction: row-reverse;
+    align-items: center;
     padding-top: 0px;
     background-position: left;
   }
 
   /* 
-    TRAILER IMAGE
+    TRAILER VIDEO
   */
-  .trailer-img-container {
-    margin: 0 135px 0 130px;
+  .trailer-video-container video {
+    margin-top: 150px;
     width: 570px;
     height: 408px;
-  }
-
-  .trailer-image {
-    padding-top: 290px;
-  }
-
-  .trailer-play-btn {
-    height: 240px;
-    top: calc((100% - 240px) / 2);
-    left: calc((100% - 132px) / 2);
   }
 
   /* 
     TRAILER CONTENT
   */
-  .trailer-container {
-    padding: 253px 0 120px 135px;
+  .trailer-content-container {
+    margin: 253px 0 120px 135px;
+    padding: 0;
   }
-
+  
   .trailer-content {
+    max-width: 470px;
     align-items: flex-start;
     padding: 0;
   }
 
   .trailer-content-title {
+    max-width: 438px;
     padding: 0;
     padding-bottom: 17px;
   }
