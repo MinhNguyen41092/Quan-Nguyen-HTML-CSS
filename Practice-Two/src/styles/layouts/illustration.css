@@ -30,6 +30,11 @@
   cursor: pointer;
 }
 
+.illustration-intro button {
+  background-color: var(--background-color-primary);
+  border: none;
+}
+
 /* 
   ILLUSTRATION CONTENT
 */
