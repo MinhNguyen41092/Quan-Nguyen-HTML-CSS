@@ -36,7 +36,7 @@
 ## HOW TO RUN THE PROJECT
 **Option 1:** *Run by deployed site* 
 
-[Practice-Two](https://practice-two-responsive-nquan.netlify.app/)
+[Practice-Two](https://moderno-furnitures.netlify.app/)
 
 **Option 2:** *Run on VS Code*
 
