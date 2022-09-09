@@ -27,6 +27,7 @@
 
 .illustration-selected-color {
   margin: 0 auto;
+  cursor: pointer;
 }
 
 /* 
@@ -42,7 +43,7 @@
 /* 
   RESPONSIVE FOR 768px SCREEN
 */
-@media screen and (min-width: 768px) {  
+@media screen and (min-width: 768px) {
   .illustration-container {
     padding-bottom: 64px;
   }
@@ -67,12 +68,12 @@
   .illustration-item {
     padding-bottom: 16px;
   }
-} 
+}
 
 /* 
   RESPONSIVE FOR 768px SCREEN
 */
-@media screen and (min-width: 1440px) {  
+@media screen and (min-width: 1440px) {
   .illustration {
     padding: 0 135px;
   }
