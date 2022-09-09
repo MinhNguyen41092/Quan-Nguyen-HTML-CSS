@@ -142,7 +142,7 @@
   .reviews-content {
     padding-bottom: 80px;
   }
-  
+
   .reviews-content-title {
     padding-bottom: 40px;
   }
@@ -154,7 +154,6 @@
   .reviews-content-comments {
     display: flex;
     justify-content: space-between;
-
   }
 
   .reviews-comments-item {
@@ -180,5 +179,9 @@
     display: flex;
     flex-direction: row-reverse;
     gap: 8px;
+  }
+
+  .reviews-arrows figure {
+    cursor: pointer;
   }
 }
