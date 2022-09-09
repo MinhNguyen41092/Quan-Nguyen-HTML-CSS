@@ -50,8 +50,9 @@
   max-width: 540px;
 }
 
-.questions-item-title img {
-  cursor: pointer;
+.questions-item-title button {
+  background-color: var(--color-text-btn-primary);
+  border: none;
 }
 
 .questions-item-description-mobile {
@@ -178,7 +179,7 @@
   }
 
   .questions-item-text-desktop {
-    max-width: 540px;
-    padding-right: 65px;
+    max-width: 570px;
+    padding-right: 95px;
   }
 }

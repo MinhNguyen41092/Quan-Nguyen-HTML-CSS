@@ -181,7 +181,9 @@
     gap: 8px;
   }
 
-  .reviews-arrows figure {
+  .reviews-arrows button {
     cursor: pointer;
+    border: none;
+    background-color: var(--color-text-btn-primary);
   }
 }
